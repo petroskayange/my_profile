@@ -3,15 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>Petros Kayange | Software Developer</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        h1 { color: #007BFF; }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            padding: 50px;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        img {
+            width: 140px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #00f2fe;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 18px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .links a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
     </style>
 </head>
 <body>
-    <h1>Hello, I'm [Your Name]!</h1>
-    <p>Welcome to my personal webpage.</p>
-    <p>Find me on <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a></p>
+    <div class="container">
+        <img src="https://via.placeholder.com/140" alt="Petros Kayange">
+        <h1>Petros Kayange</h1>
+        <h2>Software Developer | Open Source Enthusiast</h2>
+        <p>Experienced in Vue.js, TypeScript, Ruby on Rails, and system integrations. Passionate about solving problems and contributing to open-source projects.</p>
+        
+        <h3>Skills & Technologies</h3>
+        <div class="skills">
+            <span class="skill">Vue.js</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Ruby on Rails</span>
+            <span class="skill">DICOM Integration</span>
+            <span class="skill">Capacitor</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Machine Integrations</span>
+            <span class="skill">Open Source Contributions</span>
+        </div>
+
+        <h3>Connect with Me</h3>
+        <div class="links">
+            <a href="https://github.com/petroskayange" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/petroskayange" target="_blank">LinkedIn</a>
+            <a href="mailto:your.email@example.com">Email Me</a>
+        </div>
+
+        <p class="footer">© 2025 Petros Kayange | Built with 💙</p>
+    </div>
 </body>
 </html>
